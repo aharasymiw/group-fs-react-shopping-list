@@ -39,6 +39,8 @@ function ListManagement(props) {
             <h2>Shopping List</h2>
             <button type="button" onClick={reset}>Reset</button>
             <button type="button" onClick={clear}>Clear</button>
+            <br />
+            <br />
         </>
     );
 }

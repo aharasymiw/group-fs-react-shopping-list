@@ -2,3 +2,19 @@ main {
   width: 90%;
   margin: auto;
 }
+
+.item-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.item {
+  border: 3px solid lightgrey;
+  border-radius: 5%;
+  justify-self: center;
+  text-align: center;
+  width: 150px;
+  height: 140px;
+  padding-top: 10px;
+}

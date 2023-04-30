@@ -30,9 +30,14 @@ function ItemInput(props) {
         <>
             <h2>Add an Item</h2>
             <form onSubmit={addItem}>
-                <input value={name} type="text" maxLength="80" name="Item:" onChange={(event) => { setName(event.target.value) }} />
+                <label for="name">Item: </label>
+                <input value={name} type="text" maxLength="80" onChange={(event) => { setName(event.target.value) }} />
+                <br />
+                <label for="quantity">Quantity: </label>
                 <input value={quantity} type="number" onChange={(event) => { setQuantity(event.target.value) }} />
+                <label for="unit">Unit: </label>
                 <input value={unit} type="text" maxLength="20" onChange={(event) => { setUnit(event.target.value) }} />
+                <br />
                 <button type="submit">Save</button>
             </form>
         </>

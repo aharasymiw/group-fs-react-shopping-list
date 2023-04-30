@@ -36,11 +36,17 @@ function App() {
         <div className="App">
             <Header />
             <main>
-                <ItemInput fetchItems={fetchItems} />
-                <ListManagement fetchItems={fetchItems} />
-                <ItemList itemList={itemList} fetchItems={fetchItems} />
+                <section>
+                    <ItemInput fetchItems={fetchItems} />
+                </section>
+                <section>
+                    <ListManagement fetchItems={fetchItems} />
+                </section>
+                <section className='item-list'>
+                    <ItemList itemList={itemList} fetchItems={fetchItems} />
+                </section>
             </main>
-        </div>
+        </div >
     );
 }
 

@@ -32,7 +32,7 @@ function ItemList(props) {
     return (
         props.itemList.map((item) => {
             return (
-                <span key={item.id} className="">
+                <span key={item.id} className="item">
                     <p>{item.name}</p>
                     <p>{item.quantity} {item.unit}</p>
                     {!item.is_bought && <span><button onClick={() => { buy(item.id) }}>Buy</button> <button onClick={() => { remove(item.id) }}>Remove</button></span>}
