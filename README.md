@@ -41,10 +41,9 @@ If your application has secret keys (for example --  Twilio), make sure you tell
 - [react](https://www.npmjs.com/package/react)  
 - [react-dom](https://www.npmjs.com/package/react-dom)  
 - [react-scripts](https://www.npmjs.com/package/react-scripts)  
-- [Postgres](https://www.postgresql.org/download/)
 
 ## Acknowledgement
-Thanks to [Prime Digital Academy](www.primeacademy.io) who equipped and helped me to make this application a reality!
+Thanks to [Prime Digital Academy](https://www.primeacademy.io) who equipped and helped me to make this application a reality!
 
 ## Support
-If you have suggestions or issues, please email me at [aharasymiw@gmail.com](aharasymiw@gmail.com)
+If you have suggestions or issues, please email me at [aharasymiw@gmail.com](mailto:aharasymiw@gmail.com)
