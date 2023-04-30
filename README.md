@@ -14,7 +14,7 @@ A full stack shopping list.
 
 Link to software that is required to install the app (e.g. node).
 
-- [Node.js](https://nodejs.org/en/)
+- [Node.js ](https://nodejs.org/en/)
 - [Postgres](https://postgresapp.com/)
 - [React](https://react.dev/)
 
@@ -34,6 +34,7 @@ If your application has secret keys (for example --  Twilio), make sure you tell
 ## Built With
 
 - [Postgres](https://www.postgresql.org/download/)  
+- [Node v18 LTS](https://nodejs.org/en)  
 - [node-postgres](https://www.npmjs.com/package/pg)  
 - [axios](https://www.npmjs.com/package/axios)  
 - [express](https://www.npmjs.com/package/express)  
