@@ -1,5 +1,5 @@
-[REPO SIZE](https://img.shields.io/github/repo-size/aharasymiw/group-fs-react-shopping-list?style=flat-square)
-[TOP_LANGUAGE](https://img.shields.io/github/languages/top/aharasymiw/group-fs-react-shopping-list?style=flat-square)
+![REPO SIZE](https://img.shields.io/github/repo-size/aharasymiw/group-fs-react-shopping-list?style=flat-square)
+![TOP_LANGUAGE](https://img.shields.io/github/languages/top/aharasymiw/group-fs-react-shopping-list?style=flat-square)
 
 # React Shopping List
 
